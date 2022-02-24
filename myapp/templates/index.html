@@ -2,14 +2,28 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <!-- <script>
-        document.write("alerrrttttt");
-    </script> -->
-    <!-- <style>
-        body{
-            background-color:bisque;
+<script>
+    for(i=1;i<=5;i++){
+    for(j=0;j<i;j++){
+        document.write("*");  
+    }
+document.write('<br>')}
+    function fun(){
+        // var x=prompt('enter a number')
+        // if(x%2==0){
+        //     alert(x+' is divisible by 2'); 
+        // }
+        // else{
+        //     alert(x+' is not divisible by 2');
+        //  }
+        //  var student={fname:"donald",lname:"david", age:10};
+         for(prop in student){
+             console.log(prop +' is '+student[prop]);
+         }
+        console.log("haii")
         }
-    </style> -->
+</script>
+   
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=\, initial-scale=1.0">
@@ -38,7 +52,8 @@
             username:<input type="text" placeholder="Enter username"><br><br>
         password:<input type="password" placeholder="Enter password"><br><br><br>
         <input type="submit" value="submit"><br><br>
-        <button type="button" onclick="alert('be alert!')" class="btn btn-primary">Value</button>
+        <button type="button" onclick="fun()" class="btn btn-primary">Value</button><br>
+       
        </form></div>
            <div class="col-lg-3"></div>
          
